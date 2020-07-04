@@ -22,7 +22,7 @@ After installation, you can simply run `./run.sh` to execute the `WatchFace.exe`
 ### Decompiling a bin file.
 
 ```bash
-./run.sh path/to/watchface.bin
+./run.sh example/3472.bin
 ```
 
 This will extract your bin file into the images and json file that you can upload to the [Online WatchFace Editor](https://amazfitwatchfaces.com/editor/watchfaceEditor/?bip). The online editor will allow you to move and place your image files with a live preview of your changes.
@@ -32,7 +32,7 @@ When you are finished placing the images, save the `json` output visible on the 
 ### Compiling a json file.
 
 ```bash
-./run.sh path/to/watchface.json
+./run.sh example/3472/3472.json
 ```
 
 This will generate a `.bin` file from the `.json` data which can be installed into a bip.
