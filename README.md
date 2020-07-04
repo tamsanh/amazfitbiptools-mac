@@ -1,6 +1,8 @@
 # Amazfit Bip Tools
 ## Mac Compatible
 
+**Watch the Video Version**: [How To Make/Edit/Install Amazfit Bip WatchFaces on Mac and iOS](https://www.youtube.com/watch?v=YL2HQRsEZs)
+
 This package allows you to run [valeronn's Amazfit Bip Tools](https://bitbucket.org/valeronm/amazfitbiptools/src/master/WatchFace.Parser/Reader.cs) on a Mac.
 
 The decompiled images and json file can be used with this [Online WatchFace Editor]( https://amazfitwatchfaces.com/editor/watchfaceEditor/?bip) in order to create your custom watch face.
