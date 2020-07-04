@@ -7,7 +7,7 @@ cd $CURR_DIR
 watch_face_dir="./WatchFace/bin/Debug/WatchFace.exe"
 
 if [ -e ${watch_face_dir} ]; then
-    mono ${watch_face_dir} $@ | sed 's#WatchFace.exe#./run#g'
+    mono ${watch_face_dir} "$@" | sed 's#WatchFace.exe#./run.sh#g'
     exit 0
 fi
 
